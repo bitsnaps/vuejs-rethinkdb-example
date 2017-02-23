@@ -6,12 +6,38 @@ import ProjectNew from './components/ProjectNew'
 import ProjectList from './components/ProjectList'
 import ProjectView from './components/ProjectView'
 
+import Invite from './components/Invite'
+import AboutUs from './components/AboutUs'
+import Photos from './components/Photos'
+import Location from './components/Location'
+import Attendance from './components/Attendance'
+
 Vue.use(Router)
 Vue.use(Resource)
 
 const router = new Router()
 
 router.map({
+  '/invite': {
+    component: Invite
+  },
+
+  '/aboutus': {
+    component: AboutUs
+  },
+
+  '/photos': {
+    component: Photos
+  },
+
+  '/location': {
+    component: Location
+  },
+
+  '/attendance': {
+    component: Attendance
+  },
+
   '/projects/new': {
     component: ProjectNew
   },
@@ -30,7 +56,7 @@ router.beforeEach(function () {
 })
 
 router.redirect({
-  '*': '/projects'
+  '*': '/Invite'
 })
 
 router.start(App, '#app')

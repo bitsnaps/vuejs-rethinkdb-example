@@ -2,17 +2,20 @@
 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" :href="'#/projects'">G & M</a>
     </div>
-    <div class="navbar-collapse collapse" id="searchbar">
+    <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
        <li><a :href="'#/invite'">초대합니다.</a></li>
        <li><a :href="'#/aboutus'">근호 & 미경</a></li>
        <li><a :href="'#/photos'">사진첩</a></li>
        <li><a :href="'#/location'">오시는 길</a></li>
-       <li><a :href="'#/location'">참석 여부</a><li>
-       <li><a :href="'#/projects/new'">New project</a></li>
+       <li><a :href="'#/attendance'">참석 여부</a><li>
      </ul>
     </div>
   </div>

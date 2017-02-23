@@ -1,6 +1,5 @@
 <template>
 <div class="row">
-  <side-nav></side-nav>
   <div class="col-md-9">
     <h4 class="page-header">{{ project.title }}</h4>
     <div class="panel panel-default">
@@ -24,14 +23,12 @@
 </template>
 
 <script>
-import SideNav from '../components/SideNav'
 import Feed from '../components/Feed'
 
 export default {
   name: 'ProjectView',
 
   components: {
-    SideNav,
     Feed
   },
 

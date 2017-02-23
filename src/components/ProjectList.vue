@@ -1,6 +1,5 @@
 <template>
 <div class="row">
-  <side-nav></side-nav>
   <div class="col-md-9">
     <h4 class="page-header">Projects</h4>
     <feed
@@ -12,14 +11,12 @@
 </template>
 
 <script>
-import SideNav from '../components/SideNav'
 import Feed from '../components/Feed'
 
 export default {
   name: 'ProjectList',
 
   components: {
-    SideNav,
     Feed
   },
 
