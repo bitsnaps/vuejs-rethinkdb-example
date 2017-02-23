@@ -3,22 +3,17 @@
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" :href="'#/projects'"><img src="../assets/logo.png"></a>
+      <a class="navbar-brand" :href="'#/projects'">G & M</a>
     </div>
     <div class="navbar-collapse collapse" id="searchbar">
       <ul class="nav navbar-nav navbar-right">
+       <li><a :href="'#/invite'">초대합니다.</a></li>
+       <li><a :href="'#/aboutus'">근호 & 미경</a></li>
+       <li><a :href="'#/photos'">사진첩</a></li>
+       <li><a :href="'#/location'">오시는 길</a></li>
+       <li><a :href="'#/location'">참석 여부</a><li>
        <li><a :href="'#/projects/new'">New project</a></li>
-       <li><a :href="'#/signup'">Signup</a></li>
-       <li><a :href="'#/login'">Login</a></li>
      </ul>
-      <form class="navbar-form">
-        <div class="form-group" style="display:inline">
-          <div class="input-group" style="display:table">
-            <span class="input-group-addon" style="width:1%"><i class="fa fa-search"></i></span>
-            <input class="form-control" name="search" placeholder="Search Here" autocomplete="off" autofocus="autofocus" type="text">
-          </div>
-        </div>
-      </form>
     </div>
   </div>
 </nav>

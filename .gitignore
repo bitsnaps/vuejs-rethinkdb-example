@@ -4,3 +4,4 @@ dist/
 npm-debug.log
 rethinkdb_data/
 vuedb/
+.idea
