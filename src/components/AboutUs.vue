@@ -29,9 +29,9 @@
   export default {
     name: 'AboutUs',
 
-    components: {
-
-    },
+//    components: {
+//
+//    },
 
     data () {
       return {
@@ -40,15 +40,14 @@
         projects: [],
         feeds: []
       }
-    },
-
-    created () {
-      // 컨텐츠 API 호출로 반복 구성할 것. 1) 함꼐하는 시간 Vue, 2) 근호 시간 Vue, 3) 미경 시간 Vue
-      /*
-       this.$http.get('http://localhost:8090/api/stories').then(response => {
-       this.feeds = response.data
-       })
-       */
     }
+//    created () {
+//      // 컨텐츠 API 호출로 반복 구성할 것. 1) 함꼐하는 시간 Vue, 2) 근호 시간 Vue, 3) 미경 시간 Vue
+//      /*
+//       this.$http.get('http://localhost:8090/api/stories').then(response => {
+//       this.feeds = response.data
+//       })
+//       */
+//    }
   }
 </script>

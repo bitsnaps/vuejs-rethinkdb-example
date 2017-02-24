@@ -2,14 +2,14 @@
 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <!--button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" :href="'#/projects'">G & M</a>
+      </button-->
+      <a class="navbar-brand" :href="'#/invite'">G & M</a>
     </div>
-    <div class="navbar-collapse collapse">
+    <div>
       <ul class="nav navbar-nav navbar-right">
        <li><a :href="'#/invite'">초대합니다.</a></li>
        <li><a :href="'#/aboutus'">근호 & 미경</a></li>

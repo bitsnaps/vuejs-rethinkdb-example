@@ -6,7 +6,7 @@
       class="view"
       keep-alive
       transition
-      transition-mode="out-in">
+      transition-mode="out-in"></router-view>
   </div>
 </div>
 </template>

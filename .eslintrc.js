@@ -45,7 +45,7 @@ module.exports = {
     'default-case': 0,
     'dot-location': [2, 'property'],
     'dot-notation': 0,
-    'eol-last': 2,
+    /*'eol-last': 2,*/
     'eqeqeq': [2, 'allow-null'],
     'func-names': 0,
     'func-style': 0,
@@ -146,7 +146,7 @@ module.exports = {
     'no-unneeded-ternary': 2,
     'no-unreachable': 2,
     'no-unused-expressions': 0,
-    'no-unused-vars': [2, { 'vars': 'all', 'args': 'none' }],
+    /* 'no-unused-vars': [2, { 'vars': 'all', 'args': 'none' }], */
     'no-use-before-define': 0,
     'no-var': 0,
     'no-void': 0,
