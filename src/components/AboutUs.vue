@@ -1,26 +1,26 @@
 <template>
   <div class="row">
     <div class="col-md-9">
-      <h4 class="page-header">근호 & 미경</h4>
-      2017.5.14. 우리 결혼해요
-      [웨딩스냅사진]
-      근호와 미경이가 2017년 꽃피는 오월에 제주도에서
-      결혼합니다.
-      [제주도 결혼식 오시는 길]
+      <h4 class="page-header">Geunho & Mikyung</h4>
+      2017.5.14. We are getting married
+             [Wedding Snap Photo]
+             In May, Geun-ho and Mi-kyung bloom in Jeju Island in 2017
+             Get married.
+             [Jeju-do Wedding Directions]
 
-      2017.4.29. 우리 피로연해요
-      [가능하다면 한복사진/순천만 사진]
-      결혼하기 전, 순천에서 피로연을 합니다.
-      [순천 피로연 오시는 길]
+             2017.4.29. We are having a reception
+             [If possible, Hanbok Photo / Suncheon Bay Photo]
+             Before marriage, we have a reception in Suncheon.
+             [Access to Suncheon Reception]
 
-      2015.11~현재 함께 보낸 시간들
-      [연애사진]
-      ~~~~~~~
-      2015.10. 우리 처음 만났어요
-      2015.4. 미경 독립하다
-      2013.12. 근호 독립하다
-      1989.1.27. 근호가 태어났어요(미경 @@일)
-      1988.9.7 미경이가 태어났어요
+             2015.11 ~ Time spent together
+             [Love Photo]
+             ~~~~~~~
+             2015.10. We met for the first time
+             2015.4. Be independent
+             2013.12. Be independent
+             1989.1.27. Geun-ho was born (Mikyung @@ Sun)
+             1988.9.7 Mikyung was born
     </div>
   </div>
 </template>

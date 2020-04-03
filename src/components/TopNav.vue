@@ -11,11 +11,11 @@
     </div>
     <div>
       <ul class="nav navbar-nav navbar-right">
-       <li><a :href="'#/invite'">초대합니다.</a></li>
-       <li><a :href="'#/aboutus'">근호 & 미경</a></li>
-       <li><a :href="'#/photos'">사진첩</a></li>
-       <li><a :href="'#/location'">오시는 길</a></li>
-       <li><a :href="'#/attendance'">참석 여부</a><li>
+       <li><a :href="'#/invite'">invite.</a></li>
+       <li><a :href="'#/aboutus'">Photobook</a></li>
+       <li><a :href="'#/photos'">Access</a></li>
+       <li><a :href="'#/location'">Locations</a></li>
+       <li><a :href="'#/attendance'">Attendance</a></li>
      </ul>
     </div>
   </div>

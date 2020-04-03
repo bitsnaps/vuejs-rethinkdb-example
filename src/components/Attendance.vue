@@ -1,8 +1,8 @@
 <template>
   <div class="row">
     <div class="col-md-9">
-      <h4 class="page-header">참석 여부</h4>
-      참석 여부 form
+      <h4 class="page-header">Attendance</h4>
+      Attendance form
     </div>
   </div>
 </template>

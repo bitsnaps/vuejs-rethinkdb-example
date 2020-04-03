@@ -1,26 +1,26 @@
 <template>
   <div class="row">
     <div class="col-md-9">
-      <h4 class="page-header">오시는 길</h4>
-      <!-- 지도 Vue -->
-      2017년 4월 29일 토요일 늦은 6시
+      <h4 class="page-header">Locations</h4>
+      <!-- map Vue -->
+      Saturday, April 29, 2017, 6:00 p.m.
 
-      순천 더헤윰 @@홀
-      (버튼 추가: 일정 등록으로 연동)
-      주소: 순천시 @@@ @@@ 더헤윰
+             Suncheon The Hess @@ Hall
+             (Add button: link to schedule registration)
+             Address: Suncheon City @@@ @@@ THEHE
 
-      TEL: 061-@@@@@@@
-      [네이버 지도 어플 길찾기로 연동]
+             TEL: 061-@@@@@@@
+             [Linked to the Naver Map app directions]
 
-      2017년 5월 14일 일요일 아침 10시 30분
+             Sunday, May 14, 2017 10:30 AM
 
-      제주 라마다 프라자 호텔 8층 탐라홀
+             Tamra Hall on the 8th floor of the Jeju Ramada Plaza Hotel
 
-      (버튼 추가: 일정 등록으로 연동)
+             (Add button: link to schedule registration)
 
-      주소: 제줃 제주시 ~~~~~
-      TEL: 064-@@@
-      [네이버 지도 어플 길찾기로 연동]
+             Address: Jeju-si, Jeju-do ~~~~~
+             TEL: 064-@@@
+             [Linked to the Naver Map app directions]
     </div>
   </div>
 </template>

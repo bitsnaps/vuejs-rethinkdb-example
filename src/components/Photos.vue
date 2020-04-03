@@ -1,10 +1,10 @@
 <template>
   <div class="row">
     <div class="col-md-9">
-      <h4 class="page-header">사진첩</h4>
-      사진 사진 사진 사진 사진
-      사진 사진 사진 사진 사진
-      사진 사진 사진 사진 사진
+      <h4 class="page-header">Photo album</h4>
+      Photo photo photo photo photo
+       Photo photo photo photo photo
+       Photo photo photo photo photo
     </div>
   </div>
 </template>
