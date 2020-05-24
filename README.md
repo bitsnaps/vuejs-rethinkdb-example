@@ -13,7 +13,13 @@ npm install
 http://rethinkdb.com/docs/install/
 
 # serve RethinkDB at localhost:8080 (default)
+```
 rethinkdb
+# or if you want to change the admin http port
+rethinkdb --http-port 9090
+# or if you want to disable the web admin console
+rethinkdb --no-http-admin
+```
 
 # create tables in test database
 projects

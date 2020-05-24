@@ -11,9 +11,9 @@
     </div>
     <div>
       <ul class="nav navbar-nav navbar-right">
-       <li><a :href="'#/invite'">invite.</a></li>
-       <li><a :href="'#/aboutus'">Photobook</a></li>
-       <li><a :href="'#/photos'">Access</a></li>
+       <li><a :href="'#/invite'">Invite</a></li>
+       <li><a :href="'#/aboutus'">About Us</a></li>
+       <li><a :href="'#/photos'">Photos</a></li>
        <li><a :href="'#/location'">Locations</a></li>
        <li><a :href="'#/attendance'">Attendance</a></li>
      </ul>

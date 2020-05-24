@@ -1,7 +1,10 @@
 <template>
   <div class="row">
     <div class="col-md-9">
-      <h4 class="page-header">invite.</h4>
+      <h4 class="page-header">Invitation</h4>
+      <ul v-for="feed in feeds" :key="feed.id">
+        <li><a v-bind:href="feed.id" >Invitation @{{ feed.createdAt }}</a></li>
+      </ul>
       <h5>Picture</h5>
       Just calling each other's names
              Two people who can confirm the depth of love
@@ -42,12 +45,12 @@
     },
 
     created () {
-      // 사진과 컨텐츠 API 호출 하도록 변경
-      /*
-       this.$http.get('http://localhost:8090/api/feeds').then(response => {
-       this.feeds = response.data
-       })
-       */
+      // Changed to call photo and content API
+
+      this.$http.get('http://localhost:8090/api/feeds').then(response => {
+        this.feeds = response.data
+      })
+
     }
   }
 </script>

@@ -27,7 +27,7 @@
     },
 
     created () {
-      // 사진 주소를 반환하는 API 호출
+      // API call to return photo address
       /*
        this.$http.get('http://localhost:8090/api/stories').then(response => {
        this.feeds = response.data

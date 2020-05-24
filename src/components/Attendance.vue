@@ -25,7 +25,7 @@
     },
 
     created () {
-      // API 호출이 필요할지 검토.
+      // Review whether an API call is required.
       /*
        this.$http.get('http://localhost:8090/api/stories').then(response => {
        this.feeds = response.data
